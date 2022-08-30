@@ -1,30 +1,39 @@
 def get_data():
     _ = input()
-    array = [int(house) for house in input().split()]
+    street = [int(house) for house in input().split()]
+    return street
+
+
+def nearest_zero(street):
+    """
+        Алгоритм проходит массив street и сохраняет результат в array
+
+        Сначала внешний цикл заполняет array значением из counter += 1
+
+        Если house равен нулю - запускается цикл в обратном направлении
+        от текущего i до counter <= array[j]
+        цикл перезаписывает array от нуля назад 1 2 3 4 ...
+    """
+    array = [0] * len(street)
+    counter = float('inf')
+
+    for i, house in enumerate(street):
+        if house == 0:
+            counter = 0
+            for j in range(i, -1, -1):
+                if counter <= array[j]:
+                    array[j] = counter
+                    counter += 1
+                else:
+                    break
+            counter = 0
+        else:
+            counter += 1
+            array[i] = counter
+
     return array
 
 
-def nearest_zero(array):
-    distance = [0] * len(array)
-    distance_zero = float('inf')
-    for i, value in enumerate(array):
-        if value == 0:
-            distance[i] = 0
-            distance_zero = 0
-            for j in range(i, 0 - 1, -1):
-                if distance_zero <= distance[j]:
-                    distance[j] = distance_zero
-                    distance_zero += 1
-                else:
-                    break
-            distance_zero = 0
-        else:
-            distance_zero += 1
-            distance[i] = distance_zero
-    return distance
-
-
-
-street = get_data()
-result = nearest_zero(street)
-print(result)
+street_in = get_data()
+result = nearest_zero(street_in)
+print(*result)
