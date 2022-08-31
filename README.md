@@ -4,8 +4,9 @@
 
 Содержание  
 [close zero](#close_zero)  
-[game](#game)
-[zip_arrays](#zip_arrays)
+[game](#game)  
+[zip_arrays](#zip_arrays)  
+[slip_middle](#slip_middle)  
 
 <hr/>
 
@@ -31,8 +32,9 @@ python3 close_zero.py < data.txt   # запустить алгоритм с да
 cd zip_arrays
 python3 zip.py
 ```
+#### slip_middle
 
-
-
-
-
+```bash
+cd slip_middle
+python3 slip_middle.py
+```
