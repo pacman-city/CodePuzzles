@@ -7,6 +7,7 @@
 [game](#game)  
 [zip_arrays](#zip_arrays)  
 [slip_middle](#slip_middle)  
+[two_sum](#two_sum)  
 
 <hr/>
 
@@ -37,4 +38,11 @@ python3 zip.py
 ```bash
 cd slip_middle
 python3 slip_middle.py
+```
+
+#### slip_middle
+
+```bash
+cd two_sum
+python3 two_sum.py
 ```
