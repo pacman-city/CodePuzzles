@@ -8,6 +8,7 @@
 [zip_arrays](#zip_arrays)  
 [slip_middle](#slip_middle)  
 [two_sum](#two_sum)  
+[sort](#sort)  
 
 <hr/>
 
@@ -45,4 +46,13 @@ python3 slip_middle.py
 ```bash
 cd two_sum
 python3 two_sum.py
+```
+
+#### sort
+
+```bash
+cd sort
+python3 buble_sort.py
+python3 insert_sort.py
+python3 selection_sort.py
 ```
