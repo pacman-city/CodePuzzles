@@ -9,6 +9,7 @@
 [slip_middle](#slip_middle)  
 [two_sum](#two_sum)  
 [sort](#sort)  
+[merge_arrays](#merge_arrays)  
 
 <hr/>
 
@@ -55,4 +56,11 @@ cd sort
 python3 buble_sort.py
 python3 insert_sort.py
 python3 selection_sort.py
+```
+
+#### merge_arrays
+
+```bash
+cd merge_arrays
+python3 merge_arrays.py
 ```
