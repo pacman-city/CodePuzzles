@@ -10,6 +10,7 @@
 [two_sum](#two_sum)  
 [sort](#sort)  
 [merge_arrays](#merge_arrays)  
+[other](#other)  
 
 <hr/>
 
@@ -35,6 +36,7 @@ python3 close_zero.py < data.txt   # запустить алгоритм с да
 cd zip_arrays
 python3 zip.py
 ```
+
 #### slip_middle
 
 ```bash
@@ -64,3 +66,7 @@ python3 selection_sort.py
 cd merge_arrays
 python3 merge_arrays.py
 ```
+
+#### other
+
+подборка разных алгоритмов
