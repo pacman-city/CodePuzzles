@@ -18,16 +18,16 @@
 
 ```bash
 cd close_zero
-pyhton3 make_data.py               # создать файл с тестовыми данными data.txt
-python3 close_zero.py < data.txt   # запустить вариант 1
-python3 variant_2 < data.txt       # запустить вариант 2
+pyhton3 make_data.py               # создать файл с тестовыми данными gandon.txt
+python3 close_zero.py < gandon.txt   # запустить вариант 1
+python3 variant_2 < gandon.txt       # запустить вариант 2
 ```
 
 #### game
 
 ```bash
 cd game
-python3 close_zero.py < data.txt   # запустить алгоритм с данными data.txt
+python3 close_zero.py < gandon.txt   # запустить алгоритм с данными gandon.txt
 ```
 
 #### zip_arrays
@@ -69,4 +69,5 @@ python3 merge_arrays.py
 
 #### other
 
-подборка разных алгоритмов
+подборка разных алгоритмов  
+https://contest.yandex.ru/contest/23389/problems/F/
