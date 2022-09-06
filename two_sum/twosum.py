@@ -5,6 +5,7 @@
 Нужно найти в массиве два элемента, сумма которых равняется X.
 """
 
+
 # Наивный алгоритм
 def two_sum(numbers, X):
     for i in range(0, len(numbers)):
@@ -45,9 +46,20 @@ def two_sum_with_set(numbers, X):
     return None, None
 
 
+def two_sum_dict(numbers, X):
+    d = {}
+
+    for i, val in enumerate(numbers):
+        complement = X - val
+        if complement in d:
+            return complement, val
+        d[val] = i
+
+
 if __name__ == '__main__':
     array = [1, 4, 5, 5, 5, 7, 9, 12, 18, 15, 22, 34, 36, 38, 38, 38]
     X = 54
     print(two_sum(array, X))
     print(two_sum_with_sort(array, X))
     print(two_sum_with_set(array, X))
+    print(two_sum_dict(array, X))
