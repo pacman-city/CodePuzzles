@@ -11,6 +11,7 @@
 [sort](#sort)  
 [merge_arrays](#merge_arrays)  
 [other](#other)  
+[max_effective](#max_effective)  
 
 <hr/>
 
@@ -71,3 +72,10 @@ python3 merge_arrays.py
 
 подборка разных алгоритмов  
 https://contest.yandex.ru/contest/23389/problems/F/
+
+#### max_effective
+
+```bash
+cd max_effective
+python3 max_effective.py < data.txt
+```
