@@ -11,7 +11,7 @@
 [sort](#sort)  
 [merge_arrays](#merge_arrays)  
 [other](#other)  
-[max_effective](#max_effective)  
+[max_effective](#max_effective)
 
 <hr/>
 
@@ -72,6 +72,7 @@ python3 merge_arrays.py
 
 подборка разных алгоритмов  
 https://contest.yandex.ru/contest/23389/problems/F/
+https://contest.yandex.ru/contest/23758/problems/H/?error=EDUPLICATE#2989/2020_04_22/ABdnCJy4BD
 
 #### max_effective
 
