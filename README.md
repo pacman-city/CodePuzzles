@@ -11,7 +11,8 @@
 [sort](#sort)  
 [merge_arrays](#merge_arrays)  
 [other](#other)  
-[max_effective](#max_effective)
+[max_effective](#max_effective)  
+[queue](#queue)
 
 <hr/>
 
@@ -79,4 +80,11 @@ https://contest.yandex.ru/contest/23758/problems/H/?error=EDUPLICATE#2989/2020_0
 ```bash
 cd max_effective
 python3 max_effective.py < data.txt
+```
+
+#### queue
+
+```bash
+cd queue
+python3 queue.py < data.txt
 ```
