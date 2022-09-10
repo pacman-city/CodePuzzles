@@ -12,7 +12,8 @@
 [merge_arrays](#merge_arrays)  
 [other](#other)  
 [max_effective](#max_effective)  
-[queue](#queue)
+[queue](#queue)  
+[stack_linked_list](#stack_linked_list)  
 
 <hr/>
 
@@ -87,4 +88,11 @@ python3 max_effective.py < data.txt
 ```bash
 cd queue
 python3 queue.py < data.txt
+```
+
+#### stack_linked_list
+
+```bash
+cd stack_linked_list
+python3 main.py < data.txt
 ```

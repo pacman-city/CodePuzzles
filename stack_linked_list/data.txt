@@ -1,0 +1,27 @@
+26
+get
+size
+size
+get
+size
+size
+put 26
+size
+size
+size
+size
+put 6
+size
+put 18
+size
+get
+get
+size
+get
+get
+size
+size
+size
+get
+size
+size
