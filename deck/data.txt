@@ -1,0 +1,25 @@
+23
+10
+push_front 1
+push_front 2
+push_front 3
+push_front 4
+push_front 5
+pop_front
+pop_front
+pop_front
+pop_front
+pop_front
+pop_front
+push_back 10
+push_back 11
+push_back 12
+pop_front
+pop_front
+pop_front
+pop_front
+pop_back
+pop_back
+pop_back
+pop_back
+pop_back

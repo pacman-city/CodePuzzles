@@ -14,6 +14,8 @@
 [max_effective](#max_effective)  
 [queue](#queue)  
 [stack_linked_list](#stack_linked_list)  
+[deck](#deck)  
+[calculator](#calculator)  
 
 <hr/>
 
@@ -21,9 +23,9 @@
 
 ```bash
 cd close_zero
-pyhton3 make_data.py               # создать файл с тестовыми данными gandon.txt
-python3 close_zero.py < gandon.txt   # запустить вариант 1
-python3 variant_2 < gandon.txt       # запустить вариант 2
+pyhton3 make_data.py               # создать файл с тестовыми данными data.txt
+python3 close_zero.py < data.txt   # запустить вариант 1
+python3 variant_2 < data.txt       # запустить вариант 2
 ```
 
 #### game
@@ -73,8 +75,9 @@ python3 merge_arrays.py
 #### other
 
 подборка разных алгоритмов  
-https://contest.yandex.ru/contest/23389/problems/F/
-https://contest.yandex.ru/contest/23758/problems/H/?error=EDUPLICATE#2989/2020_04_22/ABdnCJy4BD
+https://contest.yandex.ru/contest/23389/problems/A/  
+https://contest.yandex.ru/contest/23758/problems/A/  
+https://contest.yandex.ru/contest/24734/problems/A/  
 
 #### max_effective
 
@@ -95,4 +98,18 @@ python3 queue.py < data.txt
 ```bash
 cd stack_linked_list
 python3 main.py < data.txt
+```
+
+#### deck
+
+```bash
+cd deck
+python3 deque.py < data.txt
+```
+
+#### calculator
+
+```bash
+cd calculator
+python3 calculator.py < data.txt
 ```
