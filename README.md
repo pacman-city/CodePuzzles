@@ -78,7 +78,7 @@ python3 merge_arrays.py
 подборка разных алгоритмов  
 https://contest.yandex.ru/contest/23389/problems/A/  
 https://contest.yandex.ru/contest/23758/problems/A/  
-https://contest.yandex.ru/contest/24734/problems/A/  
+https://contest.yandex.ru/contest/24734/problems/A/
 
 #### max_effective
 
