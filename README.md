@@ -16,6 +16,7 @@
 [stack_linked_list](#stack_linked_list)  
 [deck](#deck)  
 [calculator](#calculator)  
+[binary_search](#binary_search)  
 
 <hr/>
 
@@ -112,4 +113,11 @@ python3 deque.py < data.txt
 ```bash
 cd calculator
 python3 calculator.py < data.txt
+```
+
+#### binary_search
+
+```bash
+cd binary_search
+python3 binary_search.py
 ```

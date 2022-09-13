@@ -1,8 +1,13 @@
-"""Сортировка простыми вставками - insert sort"""
+"""
+    Сортировка простыми вставками - insert sort.
+    Устойчивый метод сортировки.
+    Сложность O(n**2) - квадратичная.
+    Использует O(1) памяти.
+"""
 
 
-def sort_data(a, n):
-    for i in range(1, n):
+def sort_data(a):
+    for i in range(1, len(a) - 1):
         elem = a[i]  # первый элемент из неотсортированной части списка
         j = i
         while j >= 1 and a[j - 1] > elem:
@@ -12,8 +17,6 @@ def sort_data(a, n):
 
 
 if __name__ == '__main__':
-    array = [1, 7, -3, 9, 0, -67, 34, 12, 45, 1000, 6, 8, -2, 99]
-    length = len(array)
-    sort_data(array, length)
-
+    array = [7, 9, 0, -67, 34, 12, -3, 1, 45, 100, 6, 8, -2, 99]
+    sort_data(array)
     print(array)

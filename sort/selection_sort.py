@@ -1,17 +1,18 @@
 """
     Сортировка выбором - selection sort.
-
-    Ищет максимальный элемент(проходит все и выбирает max())
-    и помещает его на соответствующую позицию
-    повторяет для остатка массива.
+    Сложность O(n**2) - квадратичная.
+    Может быть устойчивой и неустойчивой в зависимости от реализации.
 """
 
 
-def sort_data(a, n):
-    for i in range(n - 1):
+def sort_data(a):
+    l = len(a)
+
+    for i in range(l - 1):
         smallest = a[i]
         index = i
-        for j in range(i, n):
+        # Ищет максимальный элемент(проходит все и выбирает max()) и помещает его на соответствующую позицию
+        for j in range(i, l):
             if a[j] < smallest:
                 smallest = a[j]
                 index = j
@@ -20,7 +21,5 @@ def sort_data(a, n):
 
 if __name__ == '__main__':
     array = [24, 17, 91, 96, 67]
-    length = len(array)
-    sort_data(array, length)
-
+    sort_data(array)
     print(array)
