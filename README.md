@@ -18,6 +18,7 @@
 [calculator](#calculator)  
 [binary_search](#binary_search)  
 [broken_search](#broken_search)  
+[effective_quick_sort](#effective_quick_sort)  
 
 <hr/>
 
@@ -128,4 +129,11 @@ python3 binary_search.py
 ```bash
 cd broken_search
 python3 broken_search.py < data.txt
+```
+
+#### effective_quick_sort
+
+```bash
+cd effective_quick_sort
+python3 quick_sort.py < data.txt
 ```
