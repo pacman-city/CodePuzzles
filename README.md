@@ -17,6 +17,7 @@
 [deck](#deck)  
 [calculator](#calculator)  
 [binary_search](#binary_search)  
+[broken_search](#broken_search)  
 
 <hr/>
 
@@ -120,4 +121,11 @@ python3 calculator.py < data.txt
 ```bash
 cd binary_search
 python3 binary_search.py
+```
+
+#### broken_search
+
+```bash
+cd broken_search
+python3 broken_search.py < data.txt
 ```
